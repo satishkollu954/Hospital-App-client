@@ -126,12 +126,13 @@ export const AdminDashboard = () => {
             className="uniform-dropdown"
             size="sm"
           >
-            <Dropdown.Item onClick={() => navigate("/all-doctors")}>
-              View All Doctors
-            </Dropdown.Item>
             <Dropdown.Item onClick={() => navigate("/all-locations")}>
               View All Locations
             </Dropdown.Item>
+            <Dropdown.Item onClick={() => navigate("/all-doctors")}>
+              View All Doctors
+            </Dropdown.Item>
+
             <Dropdown.Item onClick={() => navigate("/all-diseases")}>
               View All Treatments
             </Dropdown.Item>
