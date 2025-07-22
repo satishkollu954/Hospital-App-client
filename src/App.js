@@ -417,29 +417,29 @@ function App() {
                     <h6 className="fw-bold">Quick Links</h6>
                     <ul className="list-unstyled">
                       <li>
-                        <a
-                          href="/about"
+                        <Link
+                          to="/about"
                           className="text-white text-decoration-none"
                         >
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/contact"
+                        <Link
+                          to="/contact"
                           className="text-white text-decoration-none"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="/contact"
+                        <Link
+                          to="/faq"
                           className="text-white text-decoration-none"
                         >
                           FAQs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
