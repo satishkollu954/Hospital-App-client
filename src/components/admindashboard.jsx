@@ -295,7 +295,7 @@ export const AdminDashboard = () => {
                               Complete...
                             </>
                           ) : (
-                            "Complete"
+                            "Completed"
                           )}
                         </button>
                         <button
