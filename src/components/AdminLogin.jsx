@@ -24,10 +24,10 @@ export const AdminLogin = () => {
     setError("");
 
     try {
-      console.log("Submitting login data:", loginData);
+      //console.log("Submitting login data:", loginData);
       const res = await axios.post(`${apiUrl}/api/admin/login`, loginData);
-      console.log("======", loginData);
-      console.log(res.data);
+      //console.log("======", loginData);
+      //console.log(res.data);
       if (res.data.success) {
         setCookie("email", loginData.email, { path: "/" });
 
