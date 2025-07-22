@@ -162,9 +162,6 @@ export const AdminDashboard = () => {
             <Dropdown.Item onClick={() => navigate("/faq")}>
               Add FAQ
             </Dropdown.Item>
-            <Dropdown.Item onClick={() => navigate("/chatbot-questions")}>
-              Add chatbot question
-            </Dropdown.Item>
           </DropdownButton>
 
           <Button title="Logout" variant="danger" onClick={handleSignOutClick}>
