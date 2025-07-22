@@ -25,8 +25,8 @@ export const AdminLogin = () => {
 
     try {
       const res = await axios.post(`${apiUrl}/admin/login`, loginData);
-      // console.log("======", loginData);
-      // console.log(loginData.email);
+      console.log("======", loginData);
+      console.log(res.data);
       if (res.data.success) {
         setCookie("email", loginData.email, { path: "/" });
 
