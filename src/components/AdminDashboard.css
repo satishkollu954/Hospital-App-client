@@ -91,3 +91,8 @@
     font-size: 0.95rem;
   }
 }
+
+.dropdown-menu {
+  z-index: 9999 !important;
+  position: absolute !important;
+}

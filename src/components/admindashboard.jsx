@@ -123,7 +123,7 @@ export const AdminDashboard = () => {
             as={ButtonGroup}
             title="View All"
             variant="primary"
-            className="uniform-dropdown"
+            className="uniform-dropdown z-3"
             size="sm"
           >
             <Dropdown.Item onClick={() => navigate("/all-locations")}>
@@ -148,7 +148,7 @@ export const AdminDashboard = () => {
             as={ButtonGroup}
             title="Add"
             variant="primary"
-            className="uniform-dropdown"
+            className="uniform-dropdown z-3"
             size="sm"
           >
             <Dropdown.Item onClick={() => navigate("/add-doctor")}>
