@@ -53,6 +53,7 @@ export const AdminDashboard = () => {
   }, []);
 
   const updateStatus = (id, newStatus) => {
+    console.log("Updating status for ID:", id, "to", newStatus);
     setLoadingId(id);
     axios
       .patch(`${apiUrl}/admin/appointments/${id}`, {
