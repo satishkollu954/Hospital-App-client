@@ -24,7 +24,7 @@ export const AdminLogin = () => {
     setError("");
 
     try {
-      const res = await axios.post(`${apiUrl}/admin/login`, loginData);
+      const res = await axios.post(`${apiUrl}/api/admin/login`, loginData);
       console.log("======", loginData);
       console.log(res.data);
       if (res.data.success) {
