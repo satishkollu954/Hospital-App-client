@@ -1,0 +1,115 @@
+.home-wrapper {
+  height: 100%;
+}
+
+.home-top {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  background: url("/public/home-bg.jpg") no-repeat center center;
+  filter: brightness(98%);
+  background-size: cover;
+  color: white;
+}
+
+.home-bottom {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background: url("/public/paincolor-bg.jpg") no-repeat center center;
+  background-size: cover;
+  filter: brightness(98%);
+  color: white;
+  gap: 40px;
+}
+
+.dotted-image {
+  height: 70vh;
+  background: url("/public/bg-dotted.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.home-bottom-left {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.home-bottom-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-bottom-right img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-top div:first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.boxshadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #9eb2cf;
+}
+
+.boxshadow:hover {
+  box-shadow: 6px 6px 12px #9eb2cf;
+}
+
+.bg-text {
+  color: rgb(119, 118, 118);
+  font-size: 2.1rem;
+}
+
+@media (max-width: 768px) {
+  .home-top {
+    height: auto;
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-top div:first-child {
+    font-size: 1.3rem;
+  }
+
+  .home-bottom {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-bottom-left,
+  .home-bottom-right {
+    width: 100%;
+  }
+
+  .home-bottom-right img {
+    max-width: 95%;
+  }
+
+  .bg-text {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dotted-image {
+    height: auto;
+    padding: 20px;
+  }
+}

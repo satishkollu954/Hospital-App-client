@@ -1,0 +1,105 @@
+{
+  "brand": "RaagviCare",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "treatments": "Treatments",
+    "doctors": "Doctors",
+    "contact": "Contact Us",
+    "location": "Location",
+    "bookEmergency":"Emergency Care"
+  },
+  "footer": {
+    "tagline": "Providing quality care for a healthier future – where compassion meets innovation to support your well-being. Empowering lives with trusted healthcare solutions, every step of the way. Your health, our priority – expert care delivered with heart and precision."
+  },
+
+  "home": {
+    "topLine1": "Delivering leading-edge",
+    "topLine2": "medical care, with compassion.",
+    "bookButton": "Book an Appointment",
+    "sectionHeading": "Discover What Makes Us Different",
+    "desc1": "At our hospital, we combine advanced medical technology with a deep commitment to compassionate care. What sets us apart isn't just our expertise — it's how we treat every patient like family.",
+    "point1": {
+      "title": "Patient-Centered Approach:",
+      "desc": "We listen, we understand, and we tailor care based on individual needs."
+    },
+    "point2": {
+      "title": "Expert Medical Team:",
+      "desc": "Our board-certified doctors, experienced nurses, and skilled technicians deliver world-class care."
+    },
+    "point3": {
+      "title": "State-of-the-Art Facilities:",
+      "desc": "Modern equipment, advanced diagnostics, and clean, healing environments."
+    },
+    "point4": {
+      "title": "24/7 Emergency Support:",
+      "desc": "We're always ready when you need us the most."
+    },
+    "point5": {
+      "title": "Holistic Care:",
+      "desc": "From prevention and diagnosis to recovery and support, we care for your complete well-being."
+    },
+    "reviewHeading": "What Our Patients Say About Us!",
+    "review1Alt": "Review 1",
+    "review2Alt": "Review 2",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "about": {
+    "title": "RaagviCare",
+    "subtitle": "Advanced Treatment. Expert Care. Extraordinary Results.",
+    "breadcrumb": "Home »",
+    "heading": "About RaagviCare",
+    "welcome": "Welcome to RaagviCare, your trusted partner in health and healing. At RaagviCare, we believe that healthcare is not just about advanced treatments — it's about caring for people with compassion, dignity, and commitment. Our hospital combines state-of-the-art medical technology with a deep-rooted passion for patient-centric care, ensuring every patient feels supported, respected, and understood.",
+    "offer": {
+      "heading": "» What We Offer:",
+      "points": "Comprehensive Medical Services: From routine check-ups to complex surgeries, our services cover a wide spectrum of healthcare needs. Experienced and Dedicated Team: Our doctors, nurses, and specialists are not only highly qualified but deeply empathetic — ensuring you're treated like family. Modern Infrastructure: Equipped with advanced diagnostic tools, modular operation theatres, intensive care units, and more — designed to deliver world-class outcomes. Patient-Centered Approach: Every treatment plan is tailored to the patient's condition, lifestyle, and preferences. We listen first — then act with care. Emergency & Critical Care: Our 24/7 emergency unit is always ready, equipped to respond swiftly with life-saving interventions. Holistic Well-being: At RaagviCare, we care for the mind, body, and soul. Our wellness programs, physiotherapy, counseling, and follow-up care make healing complete."
+    },
+    "mission": "» Our Mission",
+    "mission.text": "To deliver accessible, affordable, and advanced healthcare that improves lives — while maintaining the highest ethical standards and compassionate practices.",
+    "why": "» Why Choose RaagviCare?",
+    "why.text": "Because your health deserves more than treatment — it deserves care, trust, and human connection. That's the RaagviCare promise.",
+    "footer": "Your health is our priority."
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "contactNumber": "Contact Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "placeholderName": "Enter your full name",
+    "placeholderEmail": "Enter your email",
+    "placeholderContact": "Enter your contact number",
+    "placeholderMessage": "Type your message here...",
+    "faq": "Frequently Asked Questions",
+    "noFaqs": "No FAQs available.",
+    "prev": "« Previous",
+    "next": "Next »",
+    "page": "Page {{current}} of {{total}}",
+    "toastSuccess": "Message submitted successfully!",
+    "toastError": "Something went wrong. Please try again."
+  },
+  "common": {
+    "home": "Home"
+  },
+  "treatments": {
+    "pageTitle": "Conditions Treated",
+    "description1": "At RaagviCare, we offer a complete spectrum of healthcare services across multiple specialties including orthopedics, dermatology, neurology, cardiology, maternity, diabetes care, infectious diseases, and oncology. Our team of experienced doctors and specialists work together to provide personalized, high-quality medical, surgical, and wellness solutions for patients of all ages.",
+    "description2": "Your health deserves expert attention and compassionate care. From complex neurological evaluations and advanced cardiac procedures to orthopedic surgeries and maternal care, RaagviCare is equipped with state-of-the-art technology and a multidisciplinary approach to deliver comprehensive and coordinated treatment tailored to your needs.",
+    "description3": "To book an appointment with one of our specialists, simply give us a call today. To explore more about the wide range of medical conditions and treatments we offer, please select from the options in our services menu below.",
+    "learnMore": "Learn More",
+    "imageAlt": "Hospital Care"
+  },
+  "doctors": {
+    "title": "Doctors",
+    "specialization": "Specialization",
+    "imageAlt": "{{name}}'s profile picture"
+  },
+  "locations": {
+    "title": "Our Locations",
+    "viewOnMap": "View on Map",
+    "fetchError": "Unable to load locations."
+  }
+}

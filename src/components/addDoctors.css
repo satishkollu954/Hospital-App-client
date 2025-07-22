@@ -1,0 +1,89 @@
+.add-doc-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(to right, #ffffff, #f4f7fa);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.add-doc-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* For time picker alignment */
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-end {
+  align-items: flex-end !important;
+}
+
+/* Responsive: Stack to 100% width on smaller screens */
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%;
+  }
+
+  .add-doc-container {
+    padding: 1.5rem;
+  }
+}

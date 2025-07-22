@@ -1,0 +1,5 @@
+.app-img {
+  height: 50vh;
+  background: url("/public/app1-bg.jpg") no-repeat center center;
+  background-size: cover;
+}

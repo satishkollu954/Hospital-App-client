@@ -1,0 +1,12 @@
+.contact-bg {
+  background: url("/public/home-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+}

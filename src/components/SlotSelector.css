@@ -1,0 +1,40 @@
+.slot-container {
+  margin-top: 20px;
+}
+
+.slot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.slot-btn {
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slot-btn.available {
+  background-color: #e6f7ff;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.slot-btn.booked {
+  background-color: #e0e0e0;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.slot-btn.selected {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,59 @@
+.container {
+  max-width: 800px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+  background-color: #f8f9fa;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="url"] {
+  border-radius: 5px;
+}
+
+button.btn-danger {
+  margin-top: 5px;
+}
+
+button.btn-secondary {
+  margin-top: 15px;
+}
+
+button.btn-primary {
+  margin-top: 20px;
+}
+
+/* Apply background to the whole page */
+body {
+  background-image: url("/public/home-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Optional: add slight dark overlay for contrast */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85); /* Light overlay for form readability */
+  z-index: -1;
+}

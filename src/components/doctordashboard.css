@@ -1,0 +1,17 @@
+/* Equal height for all dashboard cards */
+.doctor-card {
+  height: 100%;
+  min-height: 200px; /* Adjust if needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Make all buttons same height */
+.dashboard-buttons .btn {
+  height: 42px; /* Consistent height */
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-weight: 500;
+}

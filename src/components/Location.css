@@ -1,0 +1,13 @@
+.location-bg {
+  background: url("/public/home-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.location-overlay {
+  background-color: rgba(255, 255, 255, 0.93);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
