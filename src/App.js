@@ -81,32 +81,62 @@ function App() {
             >
               <ul className="navbar-nav text-center fw-normal">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link text-white">
+                  <Link
+                    to="/"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.home")}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/about" className="nav-link text-white">
+                  <Link
+                    to="/about"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.about")}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/treatments" className="nav-link text-white">
+                  <Link
+                    to="/treatments"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.treatments")}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/doctors" className="nav-link text-white">
+                  <Link
+                    to="/doctors"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.doctors")}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contact" className="nav-link text-white">
+                  <Link
+                    to="/contact"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.contact")}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/location" className="nav-link text-white">
+                  <Link
+                    to="/location"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link text-white"
+                  >
                     {t("nav.location")}
                   </Link>
                 </li>
@@ -182,17 +212,17 @@ function App() {
         <main className="flex-grow-1 container-fluid py-4 px-4">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="treatments" element={<Treatment />} />
-            <Route path="appointment" element={<Appointment />} />
-            <Route path="contact" element={<ContactUs />} />
-            <Route path="doctors" element={<Doctors />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/treatments" element={<Treatment />} />
+            <Route path="/appointment" element={<Appointment />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/doctors" element={<Doctors />} />
             <Route path="/doctor/:email" element={<DoctorInformation />} />
-            <Route path="location" element={<Location />} />
-            <Route path="login" element={<AdminLogin />} />
-            <Route path="forgetPassword" element={<ForgetPassword />} />
+            <Route path="/location" element={<Location />} />
+            <Route path="/login" element={<AdminLogin />} />
+            <Route path="/forgetPassword" element={<ForgetPassword />} />
             <Route path="/unauthorized" element={<Unauthorized />} />
-            <Route path="emergency" element={<Emergency />} />
+            <Route path="/emergency" element={<Emergency />} />
             <Route
               path="/reschedule/:token"
               element={<RescheduleAppointment />}
@@ -200,7 +230,7 @@ function App() {
 
             {/* Doctor related routes */}
             <Route
-              path="doctor-profile"
+              path="/doctor-profile"
               element={
                 <ProtectRoute allowedRole="doctor">
                   <DoctorProfile />
@@ -208,7 +238,7 @@ function App() {
               }
             />
             <Route
-              path="doctor-appointments"
+              path="/doctor-appointments"
               element={
                 <ProtectRoute allowedRole="doctor">
                   <ViewAppointments />
@@ -217,7 +247,7 @@ function App() {
             />
 
             <Route
-              path="doctor-dashboard"
+              path="/doctor-dashboard"
               element={
                 <ProtectRoute allowedRole="doctor">
                   <DoctorDashboard />
@@ -227,7 +257,7 @@ function App() {
 
             {/* Admin related routes*/}
             <Route
-              path="admin-dashboard"
+              path="/admin-dashboard"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AdminDashboard />
@@ -235,7 +265,7 @@ function App() {
               }
             />
             <Route
-              path="all-locations"
+              path="/all-locations"
               element={
                 <ProtectRoute allowedRole="admin">
                   <ALLLocations />
@@ -244,7 +274,7 @@ function App() {
             />
 
             <Route
-              path="all-diseases"
+              path="/all-diseases"
               element={
                 <ProtectRoute allowedRole="admin">
                   <ALLDiseases />
@@ -252,7 +282,7 @@ function App() {
               }
             />
             <Route
-              path="all-doctors"
+              path="/all-doctors"
               element={
                 <ProtectRoute allowedRole="admin">
                   <ALLDoctors />
@@ -260,7 +290,7 @@ function App() {
               }
             />
             <Route
-              path="faq"
+              path="/faq"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AddFAQ />
@@ -268,7 +298,7 @@ function App() {
               }
             />
             <Route
-              path="leaves"
+              path="/leaves"
               element={
                 <ProtectRoute>
                   <ViewLeaves />
@@ -276,7 +306,7 @@ function App() {
               }
             />
             <Route
-              path="add-disease"
+              path="/add-disease"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AddDiseases />
@@ -284,7 +314,7 @@ function App() {
               }
             />
             <Route
-              path="add-location"
+              path="/add-location"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AddLocation />
@@ -292,7 +322,7 @@ function App() {
               }
             />
             <Route
-              path="add-doctor"
+              path="/add-doctor"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AddDoctors />
@@ -300,7 +330,7 @@ function App() {
               }
             />
             <Route
-              path="queries"
+              path="/queries"
               element={
                 <ProtectRoute allowedRole="admin">
                   <AllQueries />
