@@ -12,37 +12,4 @@ code {
     monospace;
 }
 
- df-messenger {
-  --df-messenger-button-titlebar-color: #007bff; /* Blue header */
-  --df-messenger-titlebar-font-color: #ffffff;
-  --df-messenger-chat-background-color: #ffffff;
-  --df-messenger-font-color: #000000;
-  --df-messenger-bot-message: #f1f0f0;
-  --df-messenger-user-message: #d1ffd6;
 
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-  width: 320px;
-  height: 400px;
-  max-height: 80vh;
-}
-
-df-messenger .df-messenger-titlebar {
-  font-size: 14px;
-}
-
-/* Ensure chatbot is always visible on top */
-body {
-  position: relative;
-  z-index: 1;
-}
-
-@media screen and (max-width: 600px) {
-  df-messenger {
-    width: 90vw;
-    bottom: 10px;
-    right: 10px;
-  }
-}

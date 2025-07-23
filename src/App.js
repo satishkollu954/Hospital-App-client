@@ -30,6 +30,7 @@ import i18n from "i18next";
 import { useCookies } from "react-cookie";
 import { Emergency } from "./components/Emergency";
 import RescheduleAppointment from "./components/RescheduleAppointment";
+import ChatBot from "./components/chatbot";
 
 function App() {
   const { t } = useTranslation();
@@ -355,6 +356,7 @@ function App() {
               }
             />
           </Routes>
+          <ChatBot />
         </main>
 
         {/* Footer */}
