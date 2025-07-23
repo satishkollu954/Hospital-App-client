@@ -356,7 +356,6 @@ function App() {
               }
             />
           </Routes>
-          <ChatBot />
         </main>
 
         {/* Footer */}

@@ -21,6 +21,7 @@
       defer
     ></script>
    
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -29,6 +30,17 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Include Dialogflow Messenger SDK -->
+
+
+<df-messenger
+  intent="WELCOME"
+  chat-title="RaagviCare Assistant"
+  agent-id="hospitalbot-e9bn"
+  language-code="en"
+></df-messenger>
+    
 
   </body>
 </html>
